@@ -1,0 +1,388 @@
+.main-container{
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.233);
+    height: 96vh;
+    border-radius: 30px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sidebar{
+    width: 30%;
+    margin-left: 0.5%;
+    height: 99%;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #121212;
+
+}
+.sidebar-left{
+    background-color: #202C33;
+    width: 17%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-left-icons{
+    height: 70%;
+    background-color: inherit;
+    width: 85%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sidebar-left-icons *{
+    background-color: inherit;
+    width: 25px;
+}
+.signout-icon{
+    width: 40px;
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+.sidebar-logout-button{
+        background-color: inherit;
+        /* margin-bottom: 20px  ; */
+        border-radius: 50%;
+}
+
+
+.sidebar-right{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    margin: 0 auto;
+    height: 92%;
+    border-radius: 20px;
+    background-color: inherit;
+}
+.search-element{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 89%;
+    height: 7%;
+    margin: 0 auto;
+    background-color: #202C33;
+}
+.search-element-input{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    height: 60%;
+    width: 70%;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-section{
+   width: 93%;
+   height: 80%;
+   background-color: inherit;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px auto;
+}
+.room{
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 20%;
+    width: 95%;
+    /* border: 2px solid white; */
+    background-color: #202C33;
+    display: flex;
+    align-items: center;
+}
+.room-icon-area{
+    background-color: inherit;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.room-icon{
+    width: 60px;
+    background-color: inherit;
+
+}
+.room-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 70%;
+    height: 70%;
+    background-color: inherit;
+}
+.room-about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: inherit;
+    font-size: 0.7rem;
+    width: 70%;
+    margin-bottom: 1px;
+}
+.room-name{
+    background-color: inherit;
+    height: 80%;
+    width: 90%;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.main-content{
+    width: 68%;
+    margin: 0 auto;
+    height: 97%;
+    border-radius:0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback-content-container{
+    width: 68%;
+    margin: 0 auto;
+    height: 97%;
+    border-radius:0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-content{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-content-heading{
+    color: rgba(78, 107, 245, 0.5);
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feedback-content-para1{
+    margin-top: 10px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feedback-content-para2{
+    margin-top: 10px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active-members{
+    width: 25%;
+    background-color: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    height:87.5%;
+    margin: 0 auto;
+    border-radius: 30px 30px 0 0;   
+}
+.room-info{
+    height: 10%;
+    border-radius: 10px 10px 0 0;   
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+.room-info-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 33px;
+    background-color: inherit;
+}
+.room-info-name{
+    background-color: inherit;
+    height: 50%;
+    width: 90%;
+    font-size: 1.5rem;
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room-info-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    background-color: inherit;
+}
+
+.msg-input{
+    display: flex;
+    align-items: center;
+    width: 97%;
+    flex: 1;
+}
+.msg-input-ele{
+    width: 80%;
+    height: 40%;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    background-color: #202C33;
+    padding: 10px 40px;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+.submit-button{
+    margin-left: 10px;
+    width: 5.5%;
+    border-radius: 10px;
+    height: 61%;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #FF028d;
+}
+.msg-box {
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    height: 86%;
+    overflow-y: scroll; /* Enable scrolling */
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: thin;  /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+}
+
+.msg-box::-webkit-scrollbar {
+    width: 0px;  /* Hide scrollbar */
+    height: 0px; /* Hide horizontal scrollbar */
+}
+
+.msg-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.msg-box::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+
+/* njdnfd */
+
+.message {
+    max-width: 70%;
+    padding: 8px 12px;
+    border-radius: 22.5px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.message.sent {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    min-width: 34%;
+    max-width: 25%;
+    min-height: 12%;
+    background-color: #121212;
+    border-top-right-radius: 0;
+    margin: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.message.sent *{
+    background-color: inherit;
+    
+}
+.message.received {
+    margin: 9px;
+    min-height: 15%;
+    background-color: #121212;
+    align-self: flex-start;
+    min-width: 40%;
+    max-width: 40%;
+    border-top-left-radius: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.message.received *{
+    background-color: inherit;
+}
+.message-sender-name{
+    color: rgb(60, 151, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold; */
+    margin-bottom: 4px;
+    
+}
+.message-content{
+    min-height: 45%;
+    font-size: 1.2rem;
+}
+.message-timestamp.received {
+    font-size: 0.7rem;
+    color: #666;
+    text-align: end;
+    margin-top: 3px;
+    background-color: inherit;
+}
+.message-timestamp.sent {
+    font-size: 0.7rem;
+    color: #666;
+    text-align: end;
+    margin-top: 3px;
+    background-color: inherit;
+}
+
+
+/* Room creation form */
+.room-creation-form{
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 15%;
+    width: 95%;
+    justify-content: center;
+    /* background-color: black; */
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+}
+.room-create-input{
+    width: 65%;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    height: 50%;
+    color: white;
+    background-color: #202C33;
+    /* border-radius: 10px; */
+    /* margin-right: 10px; */
+    border-radius: 10px 0 0 10px;
+    padding-left: 20px;
+}
+.room-create-button{
+    width: 35%;
+    color: white;
+    background-color: #FF028d;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    height: 50%;
+    border-radius:0 10px 10px 0px;
+
+}

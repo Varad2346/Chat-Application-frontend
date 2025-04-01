@@ -1,0 +1,81 @@
+.add-form-container{
+    background-color: white;
+    width: 20vw;
+    height: 55vh;
+    margin: 0px auto;
+    position: absolute;
+    /* align-items: center; */
+    margin-top: 5%;
+    z-index: 1000;
+    background-color: #121212;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 3px;
+}
+.form-user-row{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    width: 95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+    background-color: inherit;
+    /* padding: 0px 20px; */
+    justify-content: space-between;
+
+}
+.form-user-row *{
+    background-color: inherit;
+    text-transform: capitalize;
+}
+.form-user-row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;    
+}
+
+.form-users-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    overflow-y: scroll;
+    background-color: inherit;
+}
+.form-users-list::-webkit-scrollbar {
+    width: 0px;  /* Hide scrollbar */
+    height: 0px; /* Hide horizontal scrollbar */
+}
+
+.form-users-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.form-users-list::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+.form-submit-buttons{
+    display: flex;
+    height: 10%;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: inherit;
+
+}
+.form-search-element{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 89%;
+    height: 7%;
+    margin: 0 auto;
+    background-color: #202C33;   
+    /* background-color: white; */
+}
