@@ -28,7 +28,7 @@ const Login = () => {
       const username = formData.username;
       const password = formData.password;
       try {
-        const response = await fetch("https://chat-application-six-phi.vercel.app/api/auth/login", {
+        const response = await fetch("https://chat-application-varad2346s-projects.vercel.app/api/auth/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

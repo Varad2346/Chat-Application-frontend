@@ -2,7 +2,7 @@ let socket;
 import io from "socket.io-client"
 export const connectSocket = () => {
 
-  socket = io('http://localhost:3000', {
+  socket = io('https://chat-application-six-phi.vercel.app', {
     auth: {
       token: localStorage.getItem('token')
     }
