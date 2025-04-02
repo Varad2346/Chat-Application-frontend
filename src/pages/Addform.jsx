@@ -28,7 +28,7 @@ const Addform = ({ roomDetails }) => {
       const token = localStorage.getItem("token");
       if (!token) throw new Error("No authentication token found");
 
-      const response = await fetch("http://localhost:3000/api/auth/getusers", {
+      const response = await fetch("https://chat-application-dvs1.onrender.com/api/auth/getusers", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -63,7 +63,7 @@ const Addform = ({ roomDetails }) => {
         return;
       }
       {console.log(selectedUsers)}
-      const response = await fetch(`http://localhost:3000/api/rooms/${roomDetails.id}/participants`, {
+      const response = await fetch(`https://chat-application-dvs1.onrender.com/api/rooms/${roomDetails.id}/participants`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

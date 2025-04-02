@@ -46,7 +46,7 @@ const Home = () => {
         throw new Error("No authentication token found");
       }
 
-      const response = await fetch("http://localhost:3000/api/rooms/get", {
+      const response = await fetch("https://chat-application-dvs1.onrender.com/api/rooms/get", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -219,7 +219,7 @@ const Home = () => {
       if(RoomName.length<=0){
         return new Error("Room name must be given!");
       }
-      const response = await fetch("http://localhost:3000/api/rooms", {
+      const response = await fetch("https://chat-application-dvs1.onrender.com/api/rooms", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

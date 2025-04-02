@@ -28,7 +28,7 @@ const Login = () => {
       const username = formData.username;
       const password = formData.password;
       try {
-        const response = await fetch("https://chat-application-varad2346s-projects.vercel.app/api/auth/login", {
+        const response = await fetch("https://chat-application-dvs1.onrender.com/api/auth/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
