@@ -81,6 +81,8 @@ const Signup = () => {
             onChange={handleChange}
             required
             autoComplete="off"
+            className="white"
+
           />
         </div>
         <div className="login-input">
@@ -92,6 +94,8 @@ const Signup = () => {
             onChange={handleChange}
             required
             autoComplete="off"
+            className="white"
+
           />
         </div>
         <div className="login-text-middle">
