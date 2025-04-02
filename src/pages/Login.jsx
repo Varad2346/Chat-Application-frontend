@@ -76,6 +76,7 @@ const Login = () => {
             onChange={handleChange}
             required
             autoComplete="off"
+            className="white"
           />
         </div>
         <div className="login-input">
@@ -87,6 +88,7 @@ const Login = () => {
             onChange={handleChange}
             required
             autoComplete="off"
+            className="white"
 
           />
         </div>

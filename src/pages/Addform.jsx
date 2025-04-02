@@ -74,6 +74,7 @@ const Addform = ({ roomDetails }) => {
       
       if (response.ok) {
         const data = await response.json();
+        console.log(data);
         fetchData();
 
         console.log("Users added:", data);

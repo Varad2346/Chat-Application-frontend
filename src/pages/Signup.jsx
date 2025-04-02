@@ -105,7 +105,7 @@ const Signup = () => {
         </div>
         <div className="signup-options">
           {/* <a href="">Forgot Password</a> */}
-          <span>
+          <span className="white">
             Already have an account? &nbsp;
             <a href="/">Login</a>
           </span>
